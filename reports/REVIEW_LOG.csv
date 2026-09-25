@@ -1,0 +1,5 @@
+round,frame_id,object,action,rule_or_reason
+1,frame_0099.jpg,"xe con bật đèn pha ở làn giữa-trái (x=379,y=334, 55x33px), thấy rõ hai đèn và viền thân xe",added,"AI bỏ sót; box cao 33px > 16px nên phải gán; vẽ theo thân xe đoán được quanh cụm đèn, không chỉ khoanh hai chấm đèn"
+1,frame_0312.jpg,"box AI to ở giữa-phải (x=893,y=425, 182x96px) gộp hai xe đang đi sát nhau cùng một vùng đường trống",deleted,"Guideline: hai xe đứng sát nhau phải vẽ hai box riêng, không gộp; đã giữ box riêng cho từng xe"
+1,frame_0392.jpg,"xe buýt dài ở giữa ảnh (x=810,y=320, 111x57px), box AI chỉ ôm nửa trước của xe",edited,"Xe buýt thuộc lớp car (xe từ 4 bánh); kéo box ôm sát toàn bộ thân xe nhìn thấy, tính cả đuôi xe"
+1,frame_0331.jpg,"box AI ở giữa ảnh (x=500,y=421, 115x59px) chồng lên một xe đã có box và phần mặt đường trống bên cạnh",deleted,"Box trùng/không ôm thân xe; mỗi xe chỉ một box ôm sát thân, không tính mặt đường"
